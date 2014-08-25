@@ -6,6 +6,8 @@ using System.Data.SqlClient;
 using System.IO;
 using System.Threading;
 using System.Windows.Forms;
+using System.Windows.Automation;
+using System.Text;
 
 
 // New things for me:
@@ -580,18 +582,33 @@ namespace ClipboardTemplates
             string template = dr.Template.Replace("\r\n", "\n"); // Mac, Unix newlines to Win newlines
 
             // Using application direct write
+            // TODO: wait until KEYUP insted of 500ms pause
             Thread.Sleep(new TimeSpan(0, 0, 0, 0, 500));
+
+            String selectedText = "";
 
             // Overring clipboard with current selection, if template wants to do that
             if (template.Contains("<copy!/>\n"))
             {
-                SendKeys.SendWait("^(C)");  // Send CTRL+C
-                SendKeys.Flush();
+                try
+                {
+                    selectedText = getSelectedTextUsingAutomationElement();
+                }
+                catch (InvalidOperationException e)
+                {
+                    // SMALL C here!!!
+                    SendKeys.SendWait("^(c)");  // Send CTRL+C
+
+                    SendKeys.Flush();
+                    //Thread.Sleep(new TimeSpan(0, 0, 0, 0, 50));
+                    selectedText = Clipboard.GetText();
+                }
+
                 template = template.Replace("<copy!/>\n", "");
             }
 
             // Macros
-            template = template.Replace("<clipboard/>", Clipboard.GetText());
+            template = template.Replace("<clipboard/>", selectedText);
 
             this.CtrlVLock = true;
             Clipboard.SetText(template);
@@ -599,7 +616,8 @@ namespace ClipboardTemplates
             SendKeys.Flush();
             try
             {
-                Clipboard.SetText(puvodniClipboard); // obnovime puvodni obsah clipboardu
+                if(puvodniClipboard != null)
+                    Clipboard.SetText(puvodniClipboard); // obnovime puvodni obsah clipboardu
             }
             catch (System.Runtime.InteropServices.ExternalException e)
             {/*do nothing*/}
@@ -645,6 +663,33 @@ namespace ClipboardTemplates
             ////SendKeys.SendWait("+{INSERT}");
             //
             //Clipboard.SetDataObject(originalClipboardContent);
+        }
+
+        /// <summary>
+        /// Getts selected text from currently active application
+        /// </summary>
+        private String getSelectedTextUsingAutomationElement() {
+            var element = AutomationElement.FocusedElement;
+            if (element == null)
+            {
+                throw new InvalidOperationException("AutomationElement can't be used in this context.");
+            }
+
+            object pattern;
+            if (element.TryGetCurrentPattern(TextPattern.Pattern, out pattern))
+            {
+                var tp = (TextPattern)pattern;
+                var sb = new StringBuilder();
+
+                foreach (var r in tp.GetSelection())
+                {
+                    sb.AppendLine(r.GetText(-1));
+                }
+
+                return sb.ToString();
+            }
+
+            throw new InvalidOperationException("AutomationElement can't be used in this context. No current pattern found.");
         }
 
         #endregion

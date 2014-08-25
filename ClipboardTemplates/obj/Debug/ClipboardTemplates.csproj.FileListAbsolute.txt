@@ -17,18 +17,15 @@ d:\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\C
 d:\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\Clipboard Templates.application
 d:\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\Clipboard Templates.exe.manifest
 d:\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\Clipboard Templates.application
-C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\Clipboard Templates.exe.config
-C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\Clipboard Templates.exe
-C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\Clipboard Templates.pdb
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\x64\SQLite.Interop.dll
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\x86\SQLite.Interop.dll
+C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\Clipboard Templates.exe.config
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\Clipboard Templates.exe.manifest
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\Clipboard Templates.application
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\Clipboard Templates.exe
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\Clipboard Templates.pdb
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\System.Data.SQLite.dll
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\bin\Debug\System.Data.SQLite.Linq.dll
-C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\ClipboardTemplates.csprojResolveAssemblyReference.cache
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\ClipboardTemplates.AboutBox.resources
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\ClipboardTemplates.HelpWindow.resources
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\ClipboardTemplates.MainWindow.resources
@@ -37,3 +34,5 @@ C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\Clipboar
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\ClipboardTemplates.csproj.GenerateResource.Cache
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\Clipboard Templates.exe.manifest
 C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\Clipboard Templates.application
+C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\Clipboard Templates.exe
+C:\Users\Honza\Documents\Visual Studio 2012\Projects\ClipboardTemplates\ClipboardTemplates\obj\Debug\Clipboard Templates.pdb
