@@ -1,0 +1,54 @@
+-- Save this file in UTF-8 WITHOUT BOM!!! Otherwise exeption will be thrown!
+
+--Table: Templates
+
+--DROP TABLE Templates;
+
+CREATE TABLE Templates (
+  IdTemplate      integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  Name            varchar(1024) NOT NULL UNIQUE,
+  Description     text NOT NULL DEFAULT '',
+  Template        text NOT NULL,
+  Shortcut_Ctrl   boolean NOT NULL DEFAULT 0,
+  Shortcut_Alt    boolean NOT NULL DEFAULT 0,
+  Shortcut_Shift  boolean NOT NULL DEFAULT 0,
+  Shortcut_Win    boolean NOT NULL DEFAULT 0,
+  Shortcut_Key    integer
+);
+
+CREATE INDEX Templates_Name
+  ON Templates
+  (Name);
+
+CREATE UNIQUE INDEX Templates_UniqueShortcut
+  ON Templates
+  (Shortcut_Ctrl, Shortcut_Alt, Shortcut_Shift, Shortcut_Win, Shortcut_Key);
+
+
+--Table: TemplateFields
+
+--DROP TABLE TemplateFields;
+
+CREATE TABLE TemplateFields (
+  IdField     integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  Name        varchar(255) NOT NULL,
+  IdTemplate  integer NOT NULL,
+  SysName     varchar(255) NOT NULL,
+  /* Foreign keys */
+  FOREIGN KEY (IdTemplate)
+    REFERENCES Templates(IdTemplate)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
+);
+
+CREATE INDEX TemplateFields_IdTemplate
+  ON TemplateFields
+  (IdTemplate);
+
+CREATE UNIQUE INDEX TemplateFields_IdTemplate_Name
+  ON TemplateFields
+  (Name, IdTemplate);
+
+CREATE UNIQUE INDEX TemplateFields_IdTemplate_SysName
+  ON TemplateFields
+  (IdTemplate, SysName);
