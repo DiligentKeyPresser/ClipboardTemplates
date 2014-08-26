@@ -614,6 +614,10 @@ namespace ClipboardTemplates
             Clipboard.SetText(template);
             SendKeys.SendWait("+{INSERT}");
             SendKeys.Flush();
+
+            // wait before we restore clipboard this could fix problems with pasting original values
+            Thread.Sleep(new TimeSpan(0, 0, 0, 0, 100));
+
             try
             {
                 if(puvodniClipboard != null)
