@@ -22,3 +22,9 @@ And from now whenever I press CTRL+SHIFT+B whatever I had selected becomes wrapp
 
 ![image](https://cloud.githubusercontent.com/assets/133822/4518565/faad6d52-4c92-11e4-948d-c476e7c6e95c.png)
 ![image](https://cloud.githubusercontent.com/assets/133822/4518570/15a45526-4c93-11e4-9df8-fb2147b52773.png)
+
+Installation
+------------
+
+Just download and start [setup.exe](https://github.com/jkuchar/ClipboardTemplates/raw/master/ClipboardTemplates/publish/setup.exe). Program will be installed using OneClick installer. More information on [set-up page](https://rawgit.com/jkuchar/ClipboardTemplates/master/ClipboardTemplates/publish/publish.htm).
+
