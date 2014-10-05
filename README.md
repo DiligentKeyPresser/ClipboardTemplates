@@ -17,3 +17,5 @@ b) press hotkey, selected text is captured, placed in template and original sele
 You can bind what ever hotkey you want to use.
 
 ![image](https://cloud.githubusercontent.com/assets/133822/4518525/a6e2c3e4-4c91-11e4-9190-439e53016840.png)
+
+And from now whenever I press CTRL+SHIFT+B whatever I had selected becomes wrapped in `<span>` tag. (sure you can use any other text; ClipboardTemplates has nothing to do with HTML)
