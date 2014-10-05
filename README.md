@@ -19,3 +19,6 @@ You can bind what ever hotkey you want to use.
 ![image](https://cloud.githubusercontent.com/assets/133822/4518525/a6e2c3e4-4c91-11e4-9190-439e53016840.png)
 
 And from now whenever I press CTRL+SHIFT+B whatever I had selected becomes wrapped in `<span>` tag. (sure you can use any other text; ClipboardTemplates has nothing to do with HTML)
+
+![image](https://cloud.githubusercontent.com/assets/133822/4518565/faad6d52-4c92-11e4-948d-c476e7c6e95c.png)
+![image](https://cloud.githubusercontent.com/assets/133822/4518570/15a45526-4c93-11e4-9df8-fb2147b52773.png)
