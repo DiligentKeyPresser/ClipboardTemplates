@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PublishUrlHistory>publish/|https://raw.githubusercontent.com/jkuchar/ClipboardTemplates/master/ClipboardTemplates/publish/|publish\</PublishUrlHistory>
     <InstallUrlHistory>https://raw.githubusercontent.com/jkuchar/ClipboardTemplates/master/ClipboardTemplates/publish/</InstallUrlHistory>
-    <SupportUrlHistory>http://www.jankuchar.cz</SupportUrlHistory>
+    <SupportUrlHistory>https://github.com/jkuchar|http://www.jankuchar.cz</SupportUrlHistory>
     <UpdateUrlHistory>https://raw.githubusercontent.com/jkuchar/ClipboardTemplates/master/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />
