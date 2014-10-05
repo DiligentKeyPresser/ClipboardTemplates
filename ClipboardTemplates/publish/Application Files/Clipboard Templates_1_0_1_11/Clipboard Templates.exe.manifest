@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Clipboard Templates.exe" version="1.0.1.11" publicKeyToken="fa9a4233f3af7a29" language="en" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="images\Icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Clipboard Templates" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Clipboard Templates.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="Internet" Description="Default rights given to Internet applications" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Clipboard Templates.exe" size="176640">
+      <assemblyIdentity name="Clipboard Templates" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jnU24GnSSMra80WhyNCOkirU1AqWPnALcoJNZaVN4ww=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="210432">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.85.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9HGjBoOcuKdCf5Lggmr0K/Te3EmpkoAKS0utAcjJ5PI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.Linq.dll" size="182784">
+      <assemblyIdentity name="System.Data.SQLite.Linq" version="1.0.85.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KGcpuv7hUTGeMyVuMt1YeBaXh2uP5GaPaCu9dVowMzQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Clipboard Templates.exe.config" size="1815">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nGN2m1qdk3C76BUQpCaoABV+u2eBfYY8vwZLBzCnK8A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="helpPage.html" size="3554">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>huB+fHVya4PhJ43PgDLCmRtef2bX96w0/thNrlxWeI8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\Icon.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>W12CgcTpA3FrWW0mNe2Mu1tDLODU3yDg/di8PQxG1M0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x64\SQLite.Interop.dll" size="1080832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hsjWHqC5jVEZeocp5fTLMw/dbG4UsOheRQBtPMirHqI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\SQLite.Interop.dll" size="928768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JbjXmaVzCsFKGVqcUyIh9hqOAlvGngQs1mgbfs0rDn0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Honza-ntbTOSH\Honza" issuerKeyHash="f5c66bb36c1119fe1c0cb1765c7be1c1f47d0a7e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mdxmtyUZUShbJqiI54Xuv3MsaYGwr8jtB8arEezABeE=</DigestValue></Reference></SignedInfo><SignatureValue>nxBTJcojVoBM2XgrhyI2uB/N0BMqSppyH5sCLwU5WuR7AZEgXwQmzhVLcmGhAbaeS+oNkZ1qKTpnJemMrlVQDZSef7LhJ47KpdGn9jXBgYA/xymbM4b75D+Mt+jFfGLOzdKTZzLj8+1/WoQq7hKgXg2H6N4OQ2o7c65muezN4wU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0DKqD98kI1b5zeekozRnBZQg3H3ouA6jF2F/MFmZUl3NvwL8O5p+/a8DmZeCBeuGu0q/zxqEwJF/w3GhlSRlASROrbM0Q4gULmlcOaqWZXlBLbfoey4KjHxbCsIw5/XFQTPkPSl6f3tOpIuHu2fL24JigjmqgJQDpPgtcFhWJP8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e105c0ec11abc607edc8afb081692c73bfee85e788a8265b28511925b766dc99" Description="" Url=""><as:assemblyIdentity name="Clipboard Templates.exe" version="1.0.1.11" publicKeyToken="fa9a4233f3af7a29" language="en" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Honza-ntbTOSH\Honza</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fApO2gvWU5myZrQSIEfUh9hnJH9PZ7iA1+nn60qXA34=</DigestValue></Reference></SignedInfo><SignatureValue>uaPKh7eZcq1NntFdgK9jsKo02JekqCTRternIiZMdeVZOeUqbg+NsVgJSD9i/Mo5OZNKcHME3hGUr1B8qJn4oeVYiNecGG4jMtxcMaJ9+o33MLkkdFG/YuGpsOu2p6QS4VLwGEyflA8D6N5ojzAqzqAKPw8tIXoojGr0pLUwX+I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0DKqD98kI1b5zeekozRnBZQg3H3ouA6jF2F/MFmZUl3NvwL8O5p+/a8DmZeCBeuGu0q/zxqEwJF/w3GhlSRlASROrbM0Q4gULmlcOaqWZXlBLbfoey4KjHxbCsIw5/XFQTPkPSl6f3tOpIuHu2fL24JigjmqgJQDpPgtcFhWJP8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQXxIFqY/esoZCzNTh97XjnzANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYASABvAG4AegBhAC0AbgB0AGIAVABPAFMASABcAEgAbwBuAHoAYTAeFw0xNDEwMDUxMzU4NDhaFw0xNTEwMDUxOTU4NDhaMDExLzAtBgNVBAMeJgBIAG8AbgB6AGEALQBuAHQAYgBUAE8AUwBIAFwASABvAG4AegBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQMqoP3yQjVvnN56SjNGcFlCDcfei4DqMXYX8wWZlSXc2/Avw7mn79rwOZl4IF64a7Sr/PGoTAkX/DcaGVJGUBJE6tszRDiBQuaVw5qpZleUEtt+h7LgqMfFsKwjDn9cVBM+Q9KXp/e06ki4e7Z8vbgmKCOaqAlAOk+C1wWFYk/wIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAI9lGC/dLZsTDjIin13XB65/L3+djyU/98Lx5J821HRj7kHMeN1kMACeIhLzEWg6pC/60ymqnThp0Ov8HKZjyRSvy0AHiV1tlD8IX/VZHXcmYLsKrKDkQFI2Y9Nf9kI5odz9sWENtb4Aeq2LD5y/L2l5ynDNaRCQ1TrBT/ql65nr</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

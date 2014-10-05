@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1250">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.4.1  (Win32)">
+	<META NAME="CREATED" CONTENT="20130515;23070862">
+	<META NAME="CHANGED" CONTENT="20130515;23333584">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		P { margin-bottom: 0.21cm }
+		H1 { margin-bottom: 0.21cm; page-break-after: avoid }
+		H1.western { font-family: "Arial", sans-serif; font-size: 16pt; font-weight: bold }
+		H1.cjk { font-family: "Microsoft YaHei"; font-size: 16pt; font-weight: bold }
+		H1.ctl { font-family: "Mangal"; font-size: 16pt; font-weight: bold }
+		H2 { margin-bottom: 0.21cm; page-break-after: avoid }
+		H2.western { font-family: "Arial", sans-serif; font-size: 14pt; font-style: italic; font-weight: bold }
+		H2.cjk { font-family: "Microsoft YaHei"; font-size: 14pt; font-style: italic; font-weight: bold }
+		H2.ctl { font-family: "Mangal"; font-size: 14pt; font-style: italic; font-weight: bold }
+		A:link { color: #000080; so-language: zxx; text-decoration: underline }
+		A:visited { color: #800000; so-language: zxx; text-decoration: underline }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="cs-CZ" LINK="#000080" VLINK="#800000" DIR="LTR">
+<H1 CLASS="western">ClipboardTemplates</H1>
+<P>Clipboard templates allows you to extend your PC clipboard
+functionality by adding shortcuts that will put content of your
+template into clipboard. These templates can be parametrized <I>(in
+future)</I>. 
+</P>
+<H2 CLASS="western">Navigation menu</H2>
+<P>Contains three sections:</P>
+<UL>
+	<LI><P><B>Application </B>that allows you to close or hide
+	application.</P>
+	<LI><P><B>Database </B>that allows you to create new, open existing
+	or release opened database. 
+	</P>
+	<LI><P><B>Templates</B> menu that allows you to add, edit and delete
+	templates.</P>
+	<LI><P><B>Help</B> &ndash; it is obvious.</P>
+</UL>
+<H2 CLASS="western">Shortcuts</H2>
+<P>You can use these shortcuts to speed up your work with your
+application:</P>
+<TABLE WIDTH=332 BORDER=1 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0>
+	<COL WIDTH=171>
+	<COL WIDTH=143>
+	<TR VALIGN=TOP>
+		<TD WIDTH=171>
+			<P>ALT + F4</P>
+		</TD>
+		<TD WIDTH=143>
+			<P>Hides application to try</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=171>
+			<P>ALT + SHIFT + F4</P>
+		</TD>
+		<TD WIDTH=143>
+			<P>Close application</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=171>
+			<P>CTRL + SHIFT + N</P>
+		</TD>
+		<TD WIDTH=143>
+			<P>New database</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=171 HEIGHT=16>
+			<P>CTRL + SHIFT + O</P>
+		</TD>
+		<TD WIDTH=143>
+			<P>Open database</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=171>
+			<P>CTRL + SHIFT + R</P>
+		</TD>
+		<TD WIDTH=143>
+			<P>Release database</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=171>
+			<P>CTRL + N</P>
+		</TD>
+		<TD WIDTH=143>
+			<P>New template</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=171>
+			<P>CTRL + E</P>
+		</TD>
+		<TD WIDTH=143>
+			<P>Edit template</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=171>
+			<P>Delete</P>
+		</TD>
+		<TD WIDTH=143>
+			<P>Delete template</P>
+		</TD>
+	</TR>
+</TABLE>
+<H2 CLASS="western">Plans for future</H2>
+<UL>
+	<LI><P>pramatriezed templates (list view in form is ready, no
+	backend)</P>
+	<LI><P>rich text templates (bold, italics, underline, color, font
+	size)</P>
+</UL>
+</BODY>
+</HTML>
