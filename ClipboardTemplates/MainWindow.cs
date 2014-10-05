@@ -596,7 +596,7 @@ namespace ClipboardTemplates
                 }
                 catch (InvalidOperationException e)
                 {
-                    // SMALL C here!!!
+                    // SMALL C here!!! Otherwise this sends CTRL+SHIFT+C
                     SendKeys.SendWait("^(c)");  // Send CTRL+C
 
                     SendKeys.Flush();
@@ -612,7 +612,7 @@ namespace ClipboardTemplates
 
             this.CtrlVLock = true;
             Clipboard.SetText(template);
-            SendKeys.SendWait("+{INSERT}");
+            SendKeys.SendWait("^(v)"); // intentionally small 'v'
             SendKeys.Flush();
 
             // wait before we restore clipboard this could fix problems with pasting original values
@@ -620,8 +620,10 @@ namespace ClipboardTemplates
 
             try
             {
-                if(puvodniClipboard != null)
+                if (puvodniClipboard != null)
+                {
                     Clipboard.SetText(puvodniClipboard); // obnovime puvodni obsah clipboardu
+                }
             }
             catch (System.Runtime.InteropServices.ExternalException e)
             {/*do nothing*/}
